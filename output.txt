@@ -1,0 +1,49 @@
+Information Retrieval Engine - Alexandros Labrinidis (labrinid@pitt.edu)
+
+------------------------------------------------------------
+keywords = steelers
+
+[1] file=doc3.txt score=3.169925
+    weight(steelers)=3.169925
+
+[2] file=doc4.txt score=1.584963
+    weight(steelers)=1.584963
+
+[2] file=doc5.txt score=1.584963
+    weight(steelers)=1.584963
+
+------------------------------------------------------------
+keywords = pittsburgh steelers 
+
+[1] file=doc3.txt score=3.532495
+    weight(pittsburgh)=0.362570
+    weight(steelers)=3.169925
+
+[2] file=doc5.txt score=1.947533
+    weight(pittsburgh)=0.362570
+    weight(steelers)=1.584963
+
+[3] file=doc4.txt score=1.584963
+    weight(pittsburgh)=0.000000
+    weight(steelers)=1.584963
+
+[4] file=doc1.txt score=0.725140
+    weight(pittsburgh)=0.725140
+    weight(steelers)=0.000000
+
+[5] file=doc2.txt score=0.362570
+    weight(pittsburgh)=0.362570
+    weight(steelers)=0.000000
+
+[5] file=doc7.txt score=0.362570
+    weight(pittsburgh)=0.362570
+    weight(steelers)=0.000000
+
+[5] file=doc8.txt score=0.362570
+    weight(pittsburgh)=0.362570
+    weight(steelers)=0.000000
+
+[5] file=doc9.txt score=0.362570
+    weight(pittsburgh)=0.362570
+    weight(steelers)=0.000000
+
